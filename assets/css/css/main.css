@@ -83,7 +83,7 @@ body {
 /* menu header */
 
 #header{
-    background: url('../img/banner_1.png') no-repeat fixed;
+    background: url('https://www.codekop.com/cd-view/assets/media/source/fauzan1892/banner_1.png') no-repeat fixed;
     background-size: cover;
     background-size: 100% auto;
     height:auto;
@@ -318,7 +318,7 @@ body {
 
 #find-me{
     margin-top:3pc;
-    background: #f5f5f5 url('../img/world-map-footer-large.png') no-repeat center;
+    background: #f5f5f5 url('https://www.codekop.com/cd-view/assets/media/source/fauzan1892/world-map-footer-large.png') no-repeat center;
     background-size: 50% auto;
     padding-top:3pc;
     padding-bottom:3pc;

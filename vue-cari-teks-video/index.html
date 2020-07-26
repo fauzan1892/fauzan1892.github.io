@@ -45,8 +45,8 @@
                     <div class="row"> 
                         <div class="col-sm-12">
                             <br>
-                            <span class="alert alert-info"><i class="fa fa-list"> </i> Total Hasil : {{ paginasi.total }}</span>
-                            <span class="alert alert-info"><i class="fa fa-file-text"> </i> Halaman ke : {{ paginasi.page }}</span>
+                            <button class="btn btn-info btn-md"><i class="fa fa-list"> </i> Total Hasil : <span class="badge badge-light">{{ paginasi.total }}</span></button>
+                            <button class="btn btn-info btn-md"><i class="fa fa-file-text"> </i> Halaman ke : <span class="badge badge-light">{{ paginasi.page }}</span></button>
                             <div class="clearfix pt-2"></div>
                             <hr/>
                                 <ul class="list-group list-group-mine">
@@ -57,16 +57,16 @@
                                 </ul>
                                 <br/>
                             <hr/>
-                            <button class="btn btn-primary" @click="navigasi('first')" :disabled="!paginasi['first']">
+                            <button class="btn btn-primary btn-md" @click="navigasi('first')" :disabled="!paginasi['first']">
                                 <i class="fa fa-angle-double-left"></i> First
                             </button>
-                            <button class="btn btn-primary" @click="navigasi('prev')" :disabled="!paginasi['prev']">
+                            <button class="btn btn-primary btn-md" @click="navigasi('prev')" :disabled="!paginasi['prev']">
                                 <i class="fa fa-angle-double-left"></i> Prev
                             </button>
-                            <button class="btn btn-primary" @click="navigasi('next')" :disabled="!paginasi['next']">
+                            <button class="btn btn-primary btn-md" @click="navigasi('next')" :disabled="!paginasi['next']">
                                 <i class="fa fa-angle-double-right"></i>  Next
                             </button>
-                            <button class="btn btn-primary" @click="navigasi('last')" :disabled="!paginasi['last']">
+                            <button class="btn btn-primary btn-md" @click="navigasi('last')" :disabled="!paginasi['last']">
                                 <i class="fa fa-angle-double-right"></i> Last
                             </button>
                         </div>

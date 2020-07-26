@@ -1,0 +1,333 @@
+* {
+    margin:0; padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: 5pc;
+    margin-right: 5pc;
+}
+
+.container-fluid{
+    margin-left :1pc;
+    margin-right: 1pc;
+
+}
+
+/* button */
+
+.btn-blue{
+    margin-top:0.5pc;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width:auto;
+    font-size:18px;
+    background: #0e88bd;
+    color:#fff;
+    border:0px;
+    border-radius:5px 5px 5px 5px ;
+}
+
+/* button */
+/* pull left right */
+
+.pull_kiri{
+    float:left;
+}
+
+.pull_kanan{
+    float:right;
+}
+
+.pull_center{
+    text-align:center;
+}
+
+/* pull left right */
+/* clear both */
+
+.clearfix{
+    clear:both;
+}
+
+/* clear both */
+
+/* col */
+
+.col_6{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.col_4{
+    width:33.33%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+/* col */
+
+/* menu header */
+
+#header{
+    background: url('https://www.codekop.com/cd-view/assets/media/source/fauzan1892/banner_1.png') no-repeat fixed;
+    background-size: cover;
+    background-size: 100% auto;
+    height:auto;
+}
+
+.navigasi{
+    background:#1e68c9;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position:fixed;
+    width:100%;
+    z-index:9999;
+}
+
+.nav_kontak{
+    width:30px;
+    height:30px;
+}
+
+.topnav {
+    padding-top:3px;
+} 
+
+.topnav ul {
+    margin:0;
+    padding:0;
+    padding: 0 22px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+ }
+
+.topnav ul li{
+    float:left;
+}
+
+.topnav ul li:hover{
+    background:#277be9;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.topnav ul li:hover a{
+    color:#fff;
+}
+
+.topnav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #262626;
+    height: 70px;
+    width: 70px;
+}
+
+#nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span:before {
+    top: -10px;
+}
+
+#nav-toggle span:after {
+    bottom: -10px;
+}
+
+#nav-toggle.active span {
+    background-color: transparent;
+}
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+
+/* menu header */
+
+/* banner */
+.banner{
+    padding-top:7pc;
+    height:450px;
+    background: #1e68c9;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.bio_utama{
+    padding-top:50px;
+
+}
+.bio_1{
+    width:30%;
+    padding-bottom:10px;
+    font-size:20px;
+    color:#fff;
+    border-bottom:3px solid #fff;
+}
+
+.bio_2{
+    padding-top:20px;
+    font-size:50px;
+    color:#fff;
+}
+
+.bio_3{
+   padding-top:10px;
+}
+
+.bio_3 h2{
+    font-weight: 400;
+    color:#fff;
+}
+
+.bio_3 p{
+    color:#fff;
+}
+
+.bio_3 a{
+    color:yellow;
+}
+
+/* banner */
+/* about */
+
+#about{
+    width:100%;
+    margin:0;
+    padding:0;
+    margin-top:3pc;
+}
+#about h2{
+    font-size:40px;
+    font-weight:400;
+}
+
+.img_about{
+    width:150px;
+    height:150px;
+    border-radius: 250px 250px 250px 250px;
+    border:5px solid #1e68c9;
+}
+
+
+.panel{
+    border:2px solid #1e68c9;
+    border-radius:25px 25px 25px 25px;
+    padding-left:2pc;
+    padding-right:2pc;
+    padding-top:1pc;
+    padding-bottom:1pc;
+    background:#f5f5f5;
+}
+
+.profil{
+    margin-top:2pc;
+    margin-bottom:1pc;
+}
+
+.table_profil {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.table_profil tr th{
+    background: #35A9DB;
+    color: #333;
+    font-weight: normal;
+}
+ 
+.table_profil, th, td {
+    padding: 8px 20px;
+    text-align: left;
+}
+ 
+.table_profil tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table_profil tr:nth-child(odd) {
+    background-color: #0e88bd;
+    color:#fff;
+}
+ 
+.table_profil tr:nth-child(even) {
+    background-color: #35A9DB;
+    color:#fff;
+}
+
+#find-me{
+    margin-top:3pc;
+    background: #f5f5f5 url('https://www.codekop.com/cd-view/assets/media/source/fauzan1892/world-map-footer-large.png') no-repeat center;
+    background-size: 50% auto;
+    padding-top:3pc;
+    padding-bottom:3pc;
+    color:#333;
+    height:200px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#find-me h1{
+    font-size:40px;
+}
